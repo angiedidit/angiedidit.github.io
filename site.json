@@ -1,0 +1,503 @@
+[{
+  "home":{
+    "name": "Angie McDonald",
+    "title": "Designer | Art Director",
+    "tout": "Angie lives in San Francisco. She loves Doctor Who, cheese grits and game mechanics.",
+    "photo": null
+  },
+  "work":[
+    {
+      "id":"built-site",
+      "role":"art-director",
+      "title":"Built Interactive Site",
+      "client":"Ebay",
+      "summary":"CANNES - BRONZE CYBER LION. A 10-episode web series that pitted four garages against one another to build custom cars using only parts on ebay. On the site, viewers could watch the episodes, mess around with 3D models of each vehicle (which evolved over the course of the series), and see every single part that went into each build. They could then click through to find that exact part on eBay. ",
+      "link": {
+        "url": "http://www.youtube.com/watch?v=-_ljRX2kKl0",
+        "text": "View Video"
+      },
+      "type":"interactive",
+      "visuals":{
+        "thumb":"assets/img/built/00.jpg",
+        "images":[
+          {
+            "figure": "assets/img/built/01.jpg",
+            "caption": null,
+            "link": {
+              "url": null,
+              "text": null
+            }            
+          }
+        ]
+      }
+    },	
+    {
+      "id":"identity",
+      "role":"art-director",
+      "title":"identity",
+      "client":null,
+      "summary": "A small selection of identity work.",
+      "link": {
+        "url": null,
+        "text": null
+      },
+      "type": ["Site Design", "Illustration" ,"Some other thing"],
+      "visuals":{
+        "thumb":"assets/img/logos/00.jpg",
+        "images":[
+          {
+            "figure": "assets/img/logos/01.jpg",
+            "caption_headline": null,
+            "caption": null,
+            "link": {
+              "url": null,
+              "text": null
+            }            
+          },
+          {
+            "figure": "assets/img/logos/002.jpg",
+            "caption_headline": "Killing My Lobster",
+            "caption": "San Francisco Comedy Group",
+            "link": {
+              "url": null,
+              "text": null
+            }            
+          },
+          {
+            "figure": "assets/img/logos/003.jpg",
+            "caption_headline": "Contagious",
+            "caption": "VB&P Internal Social Media Contest",
+            "link": {
+              "url": null,
+              "text": null
+            }            
+          },
+          {
+            "figure": "assets/img/logos/004.jpg",
+            "caption_headline": "Dickies",
+            "caption": "Business to Business Sub-brand Concepts",
+            "link": {
+              "url": null,
+              "text": null
+            }            
+          },
+          {
+            "figure": "assets/img/logos/05.jpg",
+            "caption_headline": "Charity Bingo",
+            "caption": "Vb&P Internal Bingo Bash",
+            "link": {
+              "url": null,
+              "text": null
+            }            
+          },
+          {
+            "figure": "assets/img/logos/06.jpg",
+            "caption_headline": "Venables Beer & Partners",
+            "caption": "Logo for all beer-related paraphernalia at Venables, including beer glasses and a keg tap" ,
+            "link": {
+              "url": null,
+              "text": null
+            }            
+          },
+          {
+            "figure": "assets/img/logos/07.jpg",
+            "caption_headline": "Ebay Dads & Grads",
+            "caption": "Conceptual promotional logos for the Father's Day and Graduation season.",
+            "link": {
+              "url": null,
+              "text": null
+            }            
+          },
+          {
+            "figure": "assets/img/logos/08.jpg",
+            "caption_headline": "Slim Jim Donor Campaign",
+            "caption": "Become a Slim Jim Donor by giving the gift of meat.",
+            "link": {
+              "url": null,
+              "text": null
+            }            
+          }
+        ]
+      }
+    },
+    {
+      "id":"ebay",
+      "role": "art-director",
+      "title":"Ebay",
+      "client":"Mother's Day + Father's Day Campaigns",
+      "summary":"Developed the campaign concepts and a design toolkit for eBay's online campaigns, while overseeing the corresponding photoshoots. Concepted interactive Mother's Day ideas to launch their new Feed feature. Copywriter: <a href='http://www.linkedin.com/pub/meredith-karr/38/107/738/'>Meredith Karr</a>.",
+      "link": {
+        "url": null,
+        "text": null
+      },
+      "type": ["Site Design", "Illustration" ,"Some other thing"],
+      "visuals":{
+        "thumb":"assets/img/mdfd/00000.jpg",
+        "images":[
+          {
+            "figure": "assets/img/mdfd/000003.jpg",
+            "caption_headline": null,            
+            "caption": null,
+            "link": {
+              "url": null,
+              "text": null
+            }            
+          },
+          {
+            "figure": "assets/img/mdfd/004.jpg",
+            "caption_headline": null,            
+            "caption": null,
+            "link": {
+              "url": null,
+              "text": null
+            }            
+          },
+          {
+            "figure": "assets/img/mdfd/005.jpg",
+            "caption_headline": null,            
+            "caption": null,
+            "link": {
+              "url": null,
+              "text": null
+            }            
+          },
+          {
+            "figure": "assets/img/mdfd/006.jpg",
+            "caption_headline": null,            
+            "caption": null,
+            "link": {
+              "url": null,
+              "text": null
+            }            
+          },
+          {
+            "figure": "assets/img/mdfd/007.jpg",
+            "caption_headline": null,            
+            "caption": null,
+            "link": {
+              "url": null,
+              "text": null
+            }            
+          },
+          {
+            "figure": "assets/img/mdfd/00001.gif",
+            "caption_headline": "Momfessions",            
+            "caption": "An interactive concept to promote the eBay Feed. Users are rewarded with 10% off for sending their digital confessions to Mom. Using the eBay Feed, they can sort through compensating Mother's Day gifts based on the gravity of their misdeed.",
+            "link": {
+              "url": null,
+              "text": null
+            }            
+          },
+          {
+            "figure": "assets/img/mdfd/002.gif",
+            "caption_headline": "MiniMom",            
+            "caption": "Users start with a base avatar that shares similiar interests with their mom, an eBay Feed below will show correspoding gifts. The more that users customize the avatar, the more relevant the gifts in the feed become.",
+            "link": {
+              "url": null,
+              "text": null
+            }            
+          }
+        ]
+      }
+    },
+  	{
+  		"id":"personal-projects",
+  		"role": "art-director",
+  		"title":"Personal Projects",
+  		"client":"Chinatown Club",
+  		"summary":"Based upon my deep set love of Chinese food, I began organizing a group of adventurous eaters on a weekly foray into the chicken feet and chili sauce hijinks of SF's Chinatown. Both food and adventures are reviewed on our Chinatown Club tumblr. ",
+      "link": {
+        "url": "http://chinatownclub.tumblr.com",
+        "text": "chinatownclub.tumblr.com"
+      },      
+  		"type": ["Site Design", "Illustration" ,"Some other thing"],
+  		"visuals":{
+  			"thumb":"assets/img/personal/00000.jpg",
+  			"images":[
+  			  {
+    				"figure": "assets/img/personal/01.jpg",
+            "caption_headline": null,
+    				"caption": null,
+            "link": {
+              "url": null,
+              "text": null
+            }            
+  				},
+  				{
+    				"figure": "assets/img/personal/02.jpg",
+            "caption_headline": "Breed Breakdown",
+  				  "caption": "A tool to help the fledgling pet owner find the perfect dog breed. Concepted and created with the talented <a href='http://www.linkedin.com/in/arirose/'>Ari Rose</a>.",
+            "link": {
+              "url": "http://www.breedbreakdown.com",
+              "text": "Visit the Site"
+            }            
+  				},
+          {
+            "figure": "assets/img/personal/03.jpg",
+            "caption_headline": "The Galapagos",
+            "caption": "Over the Holiday break, I strapped on a GoPro and explored the Galapagos.",
+            "link": {
+              "url": "https://www.youtube.com/watch?v=WQReHUtfEus",
+              "text": "Watch the Video"
+            }            
+          }            
+  			]
+  		}
+  	},
+  	{
+  		"id":"illustration",
+  		"role": "art-director",
+  		"title":"Illustration",
+  		"client":null,
+  		"summary":"Vector, Cinema 4D and hand-drawn illustrations.",
+      "link": {
+        "url": null,
+        "text": null
+      },
+      "type": ["Site Design", "Illustration" ,"Some other thing"],
+  		"visuals":{
+  			"thumb":"assets/img/illustration/00.jpg",
+  			"images":[
+  				{
+  				  "figure": "assets/img/illustration/01.jpg",
+            "caption_headline": null,
+  				  "caption": null,
+            "link": {
+              "url": null,
+              "text": null
+            }            
+  				},
+  				{
+  				  "figure": "assets/img/illustration/0003.jpg",
+            "caption_headline": "Cinema 4D",
+  				  "caption": "Collected works created in Cinema 4D for various projects.",
+            "link": {
+              "url": null,
+              "text": null
+            }            
+  				},
+          {
+            "figure": "assets/img/illustration/1000.jpg",
+            "caption_headline": null,
+            "caption": null,
+            "link": {
+              "url": null,
+              "text": null
+            }            
+          },
+          {
+            "figure": "assets/img/illustration/002.jpg",
+            "caption_headline": null,            
+            "caption": null,
+            "link": {
+              "url": null,
+              "text": null
+            }            
+          },
+          {
+            "figure": "assets/img/illustration/04.jpg",
+            "caption_headline": null,            
+            "caption": null,
+            "link": {
+              "url": null,
+              "text": null
+            }            
+          },
+          {
+            "figure": "assets/img/illustration/05.jpg",
+            "caption_headline": null,            
+            "caption": null,
+            "link": {
+              "url": null,
+              "text": null
+            }            
+          },
+          {
+            "figure": "assets/img/illustration/06.jpg",
+            "caption_headline": "Drawing / Painting",            
+            "caption": "My love for creation started with a passion for drawing and painting. I try to incorporate it into my work whenever I can or paint when I have free time.",
+            "link": {
+              "url": null,
+              "text": null
+            }            
+          },
+          {
+            "figure": "assets/img/illustration/07.jpg",
+            "caption_headline": null,            
+            "caption": null,
+            "link": {
+              "url": null,
+              "text": null
+            }            
+          },
+          {
+            "figure": "assets/img/illustration/08.jpg",
+            "caption_headline": null,            
+            "caption": null,
+            "link": {
+              "url": null,
+              "text": null
+            }            
+          },
+          {
+            "figure": "assets/img/illustration/09.jpg",
+            "caption_headline": null,            
+            "caption": null,
+            "link": {
+              "url": null,
+              "text": null
+            }            
+          }
+  			]
+  		}
+  	},
+    {
+      "id":"lildicky",
+      "role": "art-director",
+      "title":"Lil Dicky",
+      "client":"Dave Burd",
+      "summary":"Helped concept the Lil Dicky brand and implement throughout video content and web design.",
+      "link": {
+        "url": "http://www.lildicky.com/",
+        "text": "lildicky.com"
+      },
+      "type": ["Site Design", "Illustration" ,"Some other thing"],
+      "visuals":{
+        "thumb":"assets/img/lildicky/00.jpg",
+        "images":[
+          {
+            "figure": "assets/img/lildicky/01.jpg",
+            "caption_headline": null,
+            "caption": null,
+            "link": {
+              "url": null,
+              "text": null
+            }            
+          },
+          {
+            "figure": "assets/img/lildicky/02.jpg",
+            "caption_headline": null,
+            "caption": null,
+            "link": {
+              "url": null,
+              "text": null
+            }            
+          },
+          {
+            "figure": "assets/img/lildicky/003.jpg",
+            "caption_headline": null,
+            "caption": null,
+            "link": {
+              "url": null,
+              "text": null
+            }            
+          }
+        ]
+      }
+    },
+    {
+      "id":"actii",
+      "role": "web designer",
+      "title":"ACT II Site Redesign",
+      "client":null,
+      "summary":"Overhauled the ACT II website with a modern, responsive design. Worked closely with front-end developer, Arnold Sandoval.",
+      "link": {
+        "url": "http://www.actii.com",
+        "text": "actii.com"
+      },
+      "type": ["Site Design", "Illustration" ,"Some other thing"],
+      "visuals":{
+        "thumb":"assets/img/actii/00000.jpg",
+        "images":[
+          {
+            "figure": "assets/img/actii/01.gif",
+            "caption_headline": null,            
+            "caption": null,
+            "link": {
+              "url": null,
+              "text": null
+            }            
+          }
+        ]
+      }
+    }
+  ],
+  "contact":[{
+    "headline": "Hey<br /> Y'all",
+    "links":[
+      {
+        "text": "angie@angie-mac.com",
+        "href": "mailto:angie@angie-mac.com"
+      },
+      {
+        "text": "LinkedIn",
+        "href": "http://www.linkedin.com/in/angelabmcdonald/"
+      },
+      {
+        "text": "Instagram",
+        "href": "http://instagram.com/angio_gram"
+      },
+      {
+        "text": "GoodReads",
+        "href": "http://www.goodreads.com/user/show/17854443-angie-mcdonald"
+      }
+    ],
+    "resume":{
+      "experience":[
+        {
+          "title": "Designer",
+          "company": "Venables Bell & Partners",
+          "location": "San Francisco, CA",
+          "years": "2012-2013"
+        },
+        {
+          "title": "Junior Designer",
+          "company": "Goodby, Silverstein & Partners",
+          "location": "San Francisco, CA",
+          "years": "2011-2012"
+        },
+        {
+          "title": "Design Intern",
+          "company": "Goodby, Silverstein & Partners",
+          "location": "San Francisco, CA",
+          "years": "Dec 2010 - May 2011"
+        }
+      ],
+      "education":[
+        {
+          "degree": "Graphic Design",
+          "school": "The Creative Circus",
+          "location": "Atlanta, GA",
+          "years": "2008-2010"
+        },
+        {
+          "degree": "Studio Art",
+          "school": "College of Charleston",
+          "location": "Charleston, SC",
+          "years": "2007-2008"
+        }
+      ],
+      "bragging": [
+        {
+          "headline": "Cannes Bronze Cyber Lion",
+          "subheadline": "Ebay Built Web Experience"
+        },
+        {
+          "headline": "1 Gold 2 Silvers",
+          "subheadline": "2011 Atlanta Addys"
+        },
+        {
+          "headline": "Level 85 World of Warcraft",
+          "subheadline": "Blood Elf Shadow Priest",
+          "copy": "Handle: Crystaltetra > Burning Blade Server"
+          
+        }
+      ],
+      "credit": {
+          "copy": "This site was custom coded in partnership with the tremendous talent, <a href='http://www.linkedin.com/in/arnoldsandoval/'>Arnold Sandoval</a>. "
+        }
+    }
+
+  }]
+
+}]

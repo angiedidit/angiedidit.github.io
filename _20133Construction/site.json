@@ -1,0 +1,388 @@
+[{
+  "home":{
+    "name": "Angie McDonald",
+    "title": "Designer | Art Director",
+    "tout": "Angie lives in San Francisco. She loves Doctor Who, cheese grits and game mechanics.",
+    "photo": null
+  },
+  "work":[
+    {
+      "id":"built-interactive-site",
+      "role":"Interactive Art Director",
+      "title":"Built Interactive Site",
+      "client":"Ebay",
+      "summary":"The eBay BUILT webseries challenged four garges to each build a vehicle using only parts from eBay. The interactive site allowed viewers to track cars progress week by week with full 360 degree renderings and even see every part used. ",
+      "project-link": "http://www.youtube.com/watch?v=-_ljRX2kKl0",
+      "type":"Cannes Cyber Lion",
+      "visuals":{
+        "thumb":"http://placehold.it/300x65/222222/ffffff",
+        "images":[
+          {
+            "figure": "assets/img/built/00.jpg",
+            "caption": null
+          },
+        ]
+      }
+    },	
+    {
+      "id":"identity",
+      "role": "art-director",
+      "title":"identity",
+      "client":null,
+      "summary": " ",
+      "project-link": "www.project.com",
+      "type": ["Site Design", "Illustration" ,"Some other thing"],
+      "visuals":{
+        "thumb":"http://placehold.it/300x65/222222/ffffff",
+        "images":[
+          {
+            "figure": "assets/img/logos/00.jpg",
+            "caption": null
+          },
+          {
+            "figure": "assets/img/logos/01.jpg",
+            "caption": null
+          },
+          {
+            "figure": "assets/img/logos/02.jpg",
+            "caption": "Example Caption - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+          },
+          {
+            "figure": "assets/img/logos/03.jpg",
+            "caption": null
+          },
+          {
+            "figure": "assets/img/logos/04.jpg",
+            "caption": null
+          },
+          {
+            "figure": "assets/img/logos/05.jpg",
+            "caption": null
+          },
+          {
+            "figure": "assets/img/logos/06.jpg",
+            "caption": "Example Caption - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+          },
+          {
+            "figure": "assets/img/logos/07.jpg",
+            "caption": null
+          }
+        ]
+      }
+    },
+    {
+  		"id":"lending-library",
+  		"role": "art-director",
+  		"title":"Lending Library",
+  		"client":"Venables Bell & Partners",
+  		"summary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sem quam, lacinia at pulvinar ut, adipiscing varius mauris. Etiam lacinia turpis nec turpis fermentum laoreet.",
+  		"project-link": "www.project.com",
+  		"type": ["Site Design", "Illustration" ,"Some other thing"],
+  		"visuals":{
+  			"thumb":"http://placehold.it/300x65/222222/ffffff",
+  			"images":[
+          {
+    				"figure": "assets/img/lending-library/00.jpg",
+    				"caption": null
+  				}
+  			]
+  		}
+  	},
+  	{
+  		"id":"lil-dicky",
+  		"role": "art-director",
+  		"title":"Lil Dicky",
+  		"client":null,
+  		"summary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sem quam, lacinia at pulvinar ut, adipiscing varius mauris. Etiam lacinia turpis nec turpis fermentum laoreet.",
+  		"project-link": "www.project.com",
+  		"type": ["Site Design", "Illustration" ,"Some other thing"],
+  		"visuals":{
+  			"thumb":"http://placehold.it/300x65/222222/ffffff",
+  			"images":[
+  			  {
+    				"figure": "assets/img/lil-dicky/00.jpg",
+    				"caption": null
+  				},
+  				{
+    				"figure": "assets/img/lil-dicky/01.jpg",
+  				  "caption": "Example Caption - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+  				},
+  				{
+    				"figure": "assets/img/lil-dicky/02.jpg",
+    				"caption": null
+  				}
+  			]
+  		}
+  	},
+  	{
+  		"id":"audi-kidentisch",
+  		"role": "art-director",
+  		"title":"Audi Kidentisch",
+  		"client":null,
+  		"summary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sem quam, lacinia at pulvinar ut, adipiscing varius mauris. Etiam lacinia turpis nec turpis fermentum laoreet.",
+  		"project-link": "www.project.com",
+  		"type": ["Site Design", "Illustration" ,"Some other thing"],
+  		"visuals":{
+  			"thumb":"http://placehold.it/300x65/222222/ffffff",
+  			"images":[
+  				{
+  				  "figure": "assets/img/audi-kb/00.jpg",
+  				  "caption": null
+  				},
+  				{
+  				  "figure": "assets/img/audi-kb/01.jpg",
+  				  "caption": "Example Caption Test"
+  				}
+  			]
+  		}
+  	},
+  	{
+  		"id":"renders",
+  		"role": "art-director",
+  		"title":"Renders",
+  		"client":null,
+  		"summary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sem quam, lacinia at pulvinar ut, adipiscing varius mauris. Etiam lacinia turpis nec turpis fermentum laoreet.",
+  		"project-link": "www.project.com",
+  		"type": ["Site Design", "Illustration" ,"Some other thing"],
+  		"visuals":{
+  			"thumb":"http://placehold.it/300x65/222222/ffffff",
+  			"images":[
+  				{
+  				  "figure": "assets/img/renders/00.jpg",
+    				"caption": null
+  				},
+  				{
+  				  "figure": "assets/img/renders/01.jpg",
+    				"caption": null
+  				},
+  				{
+  				  "figure": "assets/img/renders/02.jpg",
+    				"caption": null
+  				},
+  				{
+  				  "figure": "assets/img/renders/03.jpg",
+    				"caption": null
+  				},
+  				{
+  				  "figure": "assets/img/renders/04.jpg",
+  				  "caption": "Example Caption - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  				},
+  				{
+  				  "figure": "assets/img/renders/05.jpg",
+    				"caption": null
+  				},
+  				{
+  				  "figure": "assets/img/renders/06.jpg",
+    				"caption": null
+  				},
+  				{
+  				  "figure": "assets/img/renders/07.jpg",
+    				"caption": null
+  				},
+  				{
+  				  "figure": "assets/img/renders/08.jpg",
+    				"caption": null
+  				},
+  				{
+  				  "figure": "assets/img/renders/09.jpg",
+    				"caption": null
+  				},
+  				{
+  				  "figure": "assets/img/renders/10.jpg",
+  				  "caption": "Example Caption - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+  				},
+  				{
+  				  "figure": "assets/img/renders/11.jpg",
+    				"caption": null
+  				},
+  				{
+  				  "figure": "assets/img/renders/12.jpg",
+    				"caption": null
+  				}
+  			]
+  		}
+  	},
+  	{
+  		"id":"photo-shoots",
+  		"role": "art-director",
+  		"title":"Photoshoots",
+  		"client":null,
+  		"summary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sem quam, lacinia at pulvinar ut, adipiscing varius mauris. Etiam lacinia turpis nec turpis fermentum laoreet.",
+  		"project-link": "www.project.com",
+  		"type": ["Site Design", "Illustration" ,"Some other thing"],
+  		"visuals":{
+  			"thumb":"http://placehold.it/300x65/222222/ffffff",
+  			"images":[
+  				{
+  				  "figure": "assets/img/photoshoots/00.jpg",
+    				"caption": null
+  				},
+  				{
+  				  "figure": "assets/img/photoshoots/01.jpg",
+    				"caption": null
+  				},
+  				{
+  				  "figure": "assets/img/photoshoots/02.jpg",
+    				"caption": "Here we have a caption."
+  				},
+  				{
+  				  "figure": "assets/img/photoshoots/03.jpg",
+    				"caption": null
+  				},
+  				{
+  				  "figure": "assets/img/photoshoots/04.jpg",
+  				  "caption": "Example Caption - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+  				},
+  				{
+  				  "figure": "assets/img/photoshoots/05.jpg",
+    				"caption": null
+  				},
+  				{
+  				  "figure": "assets/img/photoshoots/06.jpg",
+    				"caption": null
+  				},
+  				{
+  				  "figure": "assets/img/photoshoots/07.jpg",
+    				"caption": null
+  				},
+  				{
+  				  "figure": "assets/img/photoshoots/08.jpg",
+    				"caption": null
+  				},
+  				{
+  				  "figure": "assets/img/photoshoots/09.jpg",
+    				"caption": null
+  				}
+  			]
+  		}
+  	},
+  	{
+  		"id":"illustration",
+  		"role": "art-director",
+  		"title":"Illustration",
+  		"client":null,
+  		"summary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sem quam, lacinia at pulvinar ut, adipiscing varius mauris. Etiam lacinia turpis nec turpis fermentum laoreet.",
+  		"project-link": "www.project.com",
+  		"type": ["Site Design", "Illustration" ,"Some other thing"],
+  		"visuals":{
+  			"thumb":"http://placehold.it/300x65/222222/ffffff",
+  			"images":[
+  				{
+  				  "figure": "assets/img/illustration/00.jpg",
+    				"caption": null
+  				},
+  				{
+  				  "figure": "assets/img/illustration/01.jpg",
+    				"caption": null
+  				},
+  				{
+  				  "figure": "assets/img/illustration/02.jpg",
+    				"caption": null
+  				},
+  				{
+  				  "figure": "assets/img/illustration/03.jpg",
+    				"caption": null
+  				},
+  				{
+  				  "figure": "assets/img/illustration/04.jpg",
+    				"caption": null
+  				},
+  				{
+  				  "figure": "assets/img/illustration/05.jpg",
+    				"caption": null
+  				},
+  				{
+  				  "figure": "assets/img/illustration/06.jpg",
+    				"caption": null
+  				},
+  				{
+  				  "figure": "assets/img/illustration/07.jpg",
+    				"caption": null
+  				},
+  				{
+  				  "figure": "assets/img/illustration/08.jpg",
+    				"caption": null
+  				},
+  				{
+  				  "figure": "assets/img/illustration/09.jpg",
+    				"caption": null
+  				}
+  			]
+  		}
+  	}
+  ],
+  "contact":[{
+    "headline": "Hey<br /> Ya'll",
+    "links":[
+      {
+        "text": "angie@angie-mac.com",
+        "href": "mailto:angie@angie-mac.com"
+      },
+      {
+        "text": "LinkedIn",
+        "href": "www.linkedin.com/pub/angie-mcdonald/1a/45a/a72/"
+      },
+      {
+        "text": "Instagram",
+        "href": "http://instagram.com/anjiigram"
+      },
+      {
+        "text": "GoodReads",
+        "href": "http://www.goodreads.com/user/show/17854443-angie-mcdonald"
+      }
+    ],
+    "resume":{
+      "experience":[
+        {
+          "title": "Designer",
+          "company": "Venables Bell & Partners",
+          "location": "San Francisco, CA",
+          "years": "2012-2013"
+        },
+        {
+          "title": "Junior Designer",
+          "company": "Goody, Silverstein & Partners",
+          "location": "San Francisco, CA",
+          "years": "2011-2012"
+        },
+        {
+          "title": "Design Intern",
+          "company": "Goody, Silverstein & Partners",
+          "location": "San Francisco, CA",
+          "years": "Dec 2010 - May 2011"
+        }
+      ],
+      "education":[
+        {
+          "degree": "Graphic Design Certificate",
+          "school": "The Creative Circus",
+          "location": "Atlanta, GA",
+          "years": "2008-2010"
+        },
+        {
+          "degree": "Studi Art",
+          "school": "College of Charleston",
+          "location": "Charleston, SC",
+          "years": "2007-2008so "
+        }
+      ],
+      "bragging": [
+        [
+          "Bronse Addy",
+          "Ebay Built Web experience"
+        ],
+        [
+          "1 Gold 2 Silvers",
+          "2011 Atlanta Addys"
+        ],
+        [
+          "Level 85 World of WarCraft.",
+          "Blood Elf Shadow Priest.",
+          "Handle: Crystaltetra > Burning Blade Server."
+        ]
+      ]
+    }
+
+  }]
+
+}]

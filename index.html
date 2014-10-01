@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Angie McDonald - Designer/Art Director</title>
+        <meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta namre="apple-mobile-web-app-capable" content="yes">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link href="//cloud.webtype.com/css/6ba7043e-68cb-4d33-a2a1-705cd495d7c0.css" rel="stylesheet" type="text/css" />
+        <script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+<div class="l-side-panel">
+	<div class="trigger"><i class="ss-plus"></i></div>
+	<nav>
+		<ul>
+			<li data-track="nav_panel,navigation,nav_home"><a href="#">Angie McDonald.</a></li>
+			<li class="trigger-dd"><a href="javascript:void(0);" data-track="nav_panel,navigation,nav_expand_work">Work <i>+</i></a>
+				<ul id="work-list"></ul>
+			</li>
+			<li><a href="#/contact" data-track="nav_panel,navigation,nav_contact">Contact</a></li>
+		</ul>
+	</nav>
+</div>
+
+<div id="container">
+</div>
+
+<script type="text/template" id="t_home">
+	<div class="l-main">
+		<div class="m-title-card">
+      <div class="inner">
+        <div id="nav-notice"><--- Click me!</div>
+  			<h1><%= name %></h1>
+  			<h2><%= title %></h2>
+  			<p><%= tout %></p>
+      </div>
+		</div>
+	</div>
+</script>
+
+<script type="text/template" id="t_worklist">
+	<% _.each(work, function(i) { %>
+    <li><a href="#/project/<%= i.id %>" data-track="nav_panel,navigation,work-item_<%= i.id %>" data-background="<%= i.visuals.thumb %>"><%= i.title %></a></li>
+	<% }); %>
+</script>
+
+<script type="text/template" id="t_project">
+	<div class="l-main">
+		<div class="m-title-card">
+      <div class="inner">
+  			<h2><%= title %><% if(client) { %> &ndash; <%= client %><% } %></h2>
+        <% if(summary){ %>
+          <p><%= summary %></p>
+        <% } %>
+        <% if(link.url !== null && link.text !== null){ %>
+          <a href="<%= link.url %>" target="_blank"><%= link.text %></a>
+        <% } %>
+      </div>
+		</div>
+	</div>
+
+	<ul class="m-visuals">
+		<% _.each(visuals.images, function(i) { %>
+			<li>
+			  <figure>
+  			  <% if(i.caption) { %>
+  			   <figcaption>
+              <h4><%= i.caption_headline %></h4>
+              <p><%= i.caption %></p>
+              <% if(i.link.url !== null && i.link.text !== null){ %>
+                <a href="<%= i.link.url %>" target="_blank"><%= i.link.text %></a>
+              <% } %>              
+            </figcaption>
+          <% } %>
+  			  <i style="background:#333 url(<%= i.figure %>) no-repeat center;"></i>
+			  </figure>
+      </li>
+		<% }); %>
+	</ul>
+
+</script>
+
+<script type="text/template" id="t_contact">
+	<div class="l-main">
+		<div class="m-title-card">
+      <div class="inner">
+  			<h1><%= headline %></h1>
+  			<ul>
+    		<% _.each(links, function(i) { %>
+    			<li>
+            <a href="<%= i.href %>"><%= i.text %></a>
+          </li>
+    		<% }); %>
+        </ul>
+  		</div>
+    </div>
+      <section class="resume">
+        <ul>
+          <li class="head"><h4>Experience.</h4></li>
+    		<% _.each(resume.experience, function(i) { %>
+    			<li>
+            <h4><%= i.years %></h4>
+            <h5><span class="title"><%= i.title %></span> <span class="company"><%= i.company %></span> <br><span class="location"><%= i.location %></span></h5>
+          </li>
+    		<% }); %>
+        </ul>
+
+        <ul>
+          <li class="head"><h4>Education.</h4></li>
+    		<% _.each(resume.education, function(i) { %>
+    			<li>
+            <h4><%= i.years %></h4>
+            <h5><span class="degree"><%= i.degree %></span> <span class="school"><%= i.school %></span><br><span class="location"><%= i.location %></span></h5>
+          </li>
+    		<% }); %>
+        </ul>
+
+        <ul>
+          <li class="head"><h4>Bragging.</h4></li>
+    		<% _.each(resume.bragging, function(i) { %>
+    			<li>
+              <h4><%= i.headline %></h4>
+              <h5><%= i.subheadline %></h5>
+              <p><em><%= i.copy %></em></p>
+        		<% _.each(i, function(i) { %>
+
+            <% }); %>
+
+          </li>
+    		<% }); %>
+        </ul>
+
+        <ul>
+          <li class="head"><h4>Credit.</h4></li>
+          <p><em><%= resume.credit.copy %></em></p>
+        </ul>        
+      </section>
+
+	</div>
+</script>
+
+
+
+
+
+        <!-- Add your site or application content here -->
+
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+      <script src="http://ajax.cdnjs.com/ajax/libs/json2/20110223/json2.js"></script>
+      <script src="http://ajax.cdnjs.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+      <script src="http://ajax.cdnjs.com/ajax/libs/backbone.js/1.0.0/backbone-min.js"></script>
+      <script src="assets/js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+var _gaq = _gaq || [];
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47879611-1', 'angie-mac.com');
+  ga('send', 'pageview');
+</script>
+
+
+
+    </body>
+</html>

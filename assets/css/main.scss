@@ -1,0 +1,551 @@
+@import "normalize";
+
+@import "webfonts";
+
+
+@mixin transform($transform){
+    -webkit-transform: $transform;
+    -moz-transform: $transform;
+    -o-transform: $transform;
+    transform: $transform;
+}
+
+@mixin transition($property, $duration, $function){
+    -webkit-transition: $property $duration $function;
+    -moz-transition: $property $duration $function;
+    -o-transition: $property $duration $function;
+    transition: $property $duration $function;
+}
+
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas G-webkit-transformagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html{
+	background: #e4e4e4;
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Ubuntu Mono', sans-serif;
+	height: 100%;
+}
+
+a{
+	color: #0033ff;
+}
+
+i{
+	font-style: normal;
+}
+
+.nav-discovered{
+	// border:10px solid red;
+}
+
+.l-side-panel{
+	width: 300px;
+	position: fixed;
+	z-index: 20;
+/*
+	left: -300px;
+	position: absolute;
+*/
+
+    @include transform(translate3d(-350px,0,0));
+
+	background: #000;
+	top: 0;
+	color: #fff;
+
+	@include transition(-webkit-transform, .5s, ease-in-out);
+
+
+	.is-ready &{
+	    @include transform(translate3d(-300px,0,0));
+	}
+
+	nav{
+
+		ul{
+			margin: 0;
+			padding: 0;
+			border-top: 1px solid #333;
+
+			li{
+				a{
+					color: #fff;
+					display: block;
+					border-bottom: 1px solid #333;
+					text-indent: 10px;
+					line-height: 50px;
+					border-bottom: 1px solid #333;
+					font-weight: bold;
+					text-decoration:none;
+				}
+
+				&.is-current a{
+					background: #333;
+				}
+
+			}
+
+		}
+
+		& > ul > li{
+
+      a:hover{
+        background: #222222;
+      }
+				i{
+					display: inline-block;
+					height: 10px;
+					width: 10px;
+					line-height: 10px;
+					text-indent: 0;
+				}
+			&.is-open{
+				i{
+					@include transform(rotate(225deg));
+				}
+				ul{
+					height: auto;
+				}
+			}
+
+
+			& > ul{
+				border-top: none;
+				height: 0;
+				overflow: hidden;
+
+				@include transition(-webkit-transform, .5s, ease-in-out);
+
+
+				li > a{
+					line-height: 30px;
+					font-weight: normal;
+					padding: 0 30px;
+					height: 65px;
+					line-height: 65px;
+					color: #878787;
+
+					&:hover{
+						color: #fff;
+						background: url(http://placehold.it/500x65/222222/ffffff) no-repeat center;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+.l-main{
+	min-width: 100%;
+	overflow: hidden;
+
+	&::before{
+		display: block;
+		content: '';
+		height: 10px;
+		background: black;
+		max-width: 700px;
+		margin: 0 0 0 380px;
+		position: absolute;
+		top: 0;
+	}
+
+}
+
+
+
+.trigger{
+	background: #000;
+	height: 52px;
+	width: 52px;
+	text-align: center;
+	position: absolute;
+	right: -52px;
+	top: 0;
+	cursor: pointer;
+	font-size: 18px;
+	font-style: normal;
+
+	i{
+		position: absolute;
+		top: 0;
+
+		height: 20px;
+		width: 20px;
+
+		@include transition(-webkit-transform, .5s, ease-in-out);
+
+		top: 50%;
+		left: 50%;
+		margin: -10px 0 0 -10px;
+	}
+
+	.is-open &{
+		i{
+			@include transform(rotate(225deg));
+		}
+
+	}
+
+}
+
+.trigger-dd{
+	ul{
+		@include transition(-webkit-transform, .5s, ease-in-out);
+	}
+}
+
+/* states */
+
+.l-side-panel{
+	&.is-open{
+		@include transform(translate3d(0,0,0));
+	}
+}
+
+
+.nav-open .m-title-card .inner{
+		@include transition(-webkit-transform, .65s, ease-in-out);	
+		@include transform(translate3d(280px,0,0));
+}
+
+.nav-open{
+	figcaption{
+		& > p,
+		& > h4, 
+		& > a{
+			@include transition(-webkit-transform, .65s, ease-in-out);	
+			@include transform(translate3d(280px,0,0));
+		}
+	}
+}
+
+
+/* modules */
+
+
+.m-title-card{
+	background: #fff;
+	padding: 80px 100px 50px 100px;
+
+	.inner{
+		  @include transition(-webkit-transform, .65s, ease-in-out);		
+		 max-width: 750px;
+	}
+
+	h1{
+		margin: 0;
+		padding: 0;
+		width: 400px;
+		font-size: 84px;
+    font-family: "Harriet Display";
+    font-style: italic;
+		line-height: 64px;
+	}
+
+	h2{
+		font-size: 16px;
+		margin: 20px 0;
+	}
+
+}
+
+
+#nav-notice{
+	position:absolute;
+	top:20px;
+	font-size:10px;
+	left:60px;
+	opacity:0;
+
+}
+.show-nav-notice #nav-notice{
+  	@include transition(opacity, .65s, ease-in-out);		
+
+	opacity:1;
+}	
+
+
+// &.is-open{
+
+// }
+
+.m-visuals{
+	background: #fff;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+
+	li{
+			list-style-type: none;
+
+      figure{
+        figcaption{
+		  border-top:10px solid #000;
+          padding: 50px 100px;
+		  @include transition(-webkit-transform, .65s, ease-in-out);
+			& > p,
+			& > h4, 
+			& > a{
+          		 max-width: 750px;
+				@include transition(-webkit-transform, .65s, ease-in-out);	
+			}		  
+
+			& > a{
+				display:inline-block;
+			}
+
+        }
+      }
+		i{
+			height: 100%;
+			width: 100%;
+			display: block;
+			height: 1000px;
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover !important;
+		}
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (max-width: 500px) {
+    /* Style adjustments for viewports that meet the condition */
+    body,html{
+    	min-height: 894px;
+    }
+
+
+.l-side-panel{
+	    width: 100% !important;
+    	height: 100% !important;
+}
+
+  .l-side-panel {
+
+	  .is-ready &{
+		  @include transform(translate3d(-100%,0,0));
+	  }
+
+	    .trigger{
+			@include transition(-webkit-transform, .65s, ease-in-out);
+	    }
+
+	    &.is-open{
+
+	    	 @include transform(translate3d(0%,0,0));
+		    .trigger{
+			    right: 0px;
+			    height: 50px;
+		    }
+	    }
+    }
+
+    .coverer{
+	    height: auto;
+	    width: 100%;
+	    max-width: 100%;
+	    overflow: hidden;
+	    min-height: auto;
+	    height: auto;
+    }
+
+    .m-title-card{
+	    padding: 50px 20px 20px 20px;
+	    width: auto;
+	    max-width: auto;
+	    h1{
+		    font-size:40px;
+		    width: 85%;
+		    line-height:35px;
+		    margin-top: 20px;
+	    }
+    }
+
+
+
+
+    .m-visuals li i{
+	    height: 300px;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 767px) {
+body{
+/*   border: 10px solid green; */
+}
+    .m-visuals li i{
+	    height: 600px;
+    }
+}
+
+
+@media only screen and (min-width:768px) and (max-width: 1024px) {
+body{
+/*   border: 10px solid red; */
+}
+    .m-visuals li i{
+	    height: 800px;
+    }
+}
+
+@media only screen and (min-width:1525px) and (max-width: 10000px) {
+body{
+/*   border: 10px solid red; */
+}
+    .m-visuals li i{
+	    height: 1600px;
+    }
+}
+
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+.resume{
+  padding:50px 28% 50px 100px;
+  ul{
+    margin: 0;
+    padding: 30px 0;
+    li{
+      padding: 10px 0;
+      list-style-type: none;
+
+      .school,
+      .company{
+        font-style: italic;
+      }
+      &.head{
+        h4{
+        font-size: 15px;
+        font-weight: bold;
+        }
+      }
+
+      h4,h5,p{
+        font-size: 15px;
+        margin: 0;
+        font-weight: normal;
+      }
+    }
+  }
+}
+
+.m-title-card{
+  ul{
+    padding: 0;
+    margin: 40px 0 0;
+    li{
+      list-style-type: none;
+      line-height: 20px;
+      a{
+        color: #0033ff;
+      }
+    }
+  }
+}

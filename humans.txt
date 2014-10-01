@@ -1,0 +1,11 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+    Angie McDonald -- Designer -- angie@angie-mac.com
+    Arnold Sandoval -- Developer -- arnold@somewhereinsf.com
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, Zepto.js, Modernizr, underscore.js, Backbone.js
